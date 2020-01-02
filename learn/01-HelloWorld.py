@@ -1,14 +1,11 @@
-import requests
 import keyword
 
-def get():
-  r = requests.get("http://www.baidu.com/")
-  return r
-
+#输出所有关键字
 print(keyword.kwlist)
 
-print(get().encoding)
-print(get().url)
-print(get().text)
-
-
+print('hello, world!')
+# print("你好,世界！")
+print('你好', '世界')
+#sep连接两个输出字符串，end加在输出结尾
+print('hello', 'world', sep=', ', end='!')
+print('goodbye, world', end='!\n')
