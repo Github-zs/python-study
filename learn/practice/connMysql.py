@@ -2,7 +2,7 @@ import pymysql as p
 import configparser
 import os
 
-root_path = os.path.dirname(os.path.abspath('.'))
+root_path = os.path.dirname(os.path.abspath('..'))
 conf = configparser.ConfigParser()
 # 读取配置文件要写绝对路径
 # 字符串拼接  s1.join(s2) (s1, '' ,s2) s1 + s2
